@@ -8,11 +8,8 @@ gem 'rails', '4.0.0'
 #gem 'sqlite3-ruby', '1.3.7'
 #gem "sqlite3-ruby", :require => "sqlite3"
 
-gem 'sqlite3', :group => [:development, :test]
-group :production do
-  gem 'thin'
-  gem 'pg'
-end
+gem 'sqlite3'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
